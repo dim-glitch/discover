@@ -19,6 +19,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
   <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/aos.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/media.css">
 </head>
@@ -28,8 +29,8 @@
 
     <header>
       <div class="container">
-        <a class="logo" href="#">Discover</a>
-        <nav>
+        <a class="logo" href="#" data-aos="slide-right">Discover</a>
+        <nav data-aos="slide-left">
           <button class="mini-menu">Menu</button>
           <ul>
             <li><a href="#">HOME</a></li>
@@ -44,7 +45,7 @@
 
     <section class="home">
       <div class="container home-container">
-        <h1 class="home-title">DISCOVER</h1>
+        <h1 class="home-title" data-aos="fade-up" data-aos-delay="50" >DISCOVER</h1>
         <p class="home-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
           ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -57,7 +58,7 @@
       <div class="container fav-container">
         <!-- fav-item-1 -->
         <article class="fav-item">
-          <img class="fav-img" src="https://picsum.photos/id/10/600/600" alt="">
+          <img class="fav-img" data-aos="flip-down" data-aos-delay="100"  src="https://picsum.photos/id/10/600/600" alt="">
           <div class="fav-text">
             <h6>Sed ut perspiciatis unde omnis iste natus
               error sit voluptatem accusantium.</h6>
@@ -68,7 +69,7 @@
         </article>
         <!-- fav-item-2 -->
         <article class="fav-item">
-          <img class="fav-img" src="https://picsum.photos/id/1006/600/600" alt="">
+          <img class="fav-img" data-aos="flip-down" data-aos-delay="100" src="https://picsum.photos/id/1006/600/600" alt="">
           <div class="fav-text">
             <h6>Sed ut perspiciatis unde omnis iste natus
               error sit voluptatem accusantium.</h6>
@@ -79,7 +80,7 @@
         </article>
         <!-- fav-item-3 -->
         <article class="fav-item">
-          <img class="fav-img" src="https://picsum.photos/id/1015/600/600" alt="">
+          <img class="fav-img" data-aos="flip-up" data-aos-delay="100" src="https://picsum.photos/id/1015/600/600" alt="">
           <div class="fav-text">
             <h6>Sed ut perspiciatis unde omnis iste natus
               error sit voluptatem accusantium.</h6>
@@ -90,7 +91,7 @@
         </article>
         <!-- fav-item-4 -->
         <article class="fav-item">
-          <img class="fav-img" src="https://picsum.photos/id/1018/600/600" alt="">
+          <img class="fav-img" data-aos="flip-up" data-aos-delay="100" src="https://picsum.photos/id/1018/600/600" alt="">
           <div class="fav-text">
             <h6>Sed ut perspiciatis unde omnis iste natus
               error sit voluptatem accusantium.</h6>
@@ -199,7 +200,7 @@
           </div>
           <div class="contact-item">
             <i class="fas fa-envelope"></i>
-            <a href="mailto: Huuluong.arc@gmail.com"> Huuluong.arc@gmail.com</a>
+            <a href="#"> Huuluong.arc@gmail.com</a>
           </div>
           <div class="contact-item">
             <i class="fas fa-globe"></i>
@@ -213,7 +214,7 @@
           </div>
         </div>
         <div class="contact-form">
-          <form action="">
+          <form action="mail.php">
             <input type="text" placeholder="Your name">
             <input type="email" placeholder="Email">
            <textarea placeholder="Massage"></textarea>
@@ -230,6 +231,7 @@
   
   <script src="https://code.jquery.com/jquery.min.js"></script>
   <script src="js/slick.min.js"></script>
+  <script src="js/aos.js"></script>
   <script src="js/jquery.fancybox.min.js"></script>
   <script src="js/script.js"></script>
 </body>
